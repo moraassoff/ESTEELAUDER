@@ -6,12 +6,11 @@
 //
 
 import SwiftUI
-
 @main
 struct Estee_LauderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentsView()
         }
     }
 }

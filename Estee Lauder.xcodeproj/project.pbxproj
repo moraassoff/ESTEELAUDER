@@ -7,13 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7445A4E2A72558A00E98ED4 /* OptimaDisplay-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7445A462A72558A00E98ED4 /* OptimaDisplay-Book.ttf */; };
+		C7445A4F2A72558A00E98ED4 /* OptimaDisplay-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7445A462A72558A00E98ED4 /* OptimaDisplay-Book.ttf */; };
+		C7445A502A72558A00E98ED4 /* OptimaDisplay-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7445A462A72558A00E98ED4 /* OptimaDisplay-Book.ttf */; };
+		C7445A512A72558A00E98ED4 /* OptimaDisplay-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7445A472A72558A00E98ED4 /* OptimaDisplay-UltraLight.ttf */; };
+		C7445A522A72558A00E98ED4 /* OptimaDisplay-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7445A472A72558A00E98ED4 /* OptimaDisplay-UltraLight.ttf */; };
+		C7445A532A72558A00E98ED4 /* OptimaDisplay-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7445A472A72558A00E98ED4 /* OptimaDisplay-UltraLight.ttf */; };
+		C7445A542A72558A00E98ED4 /* OptimaEL-Text.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7445A482A72558A00E98ED4 /* OptimaEL-Text.ttf */; };
+		C7445A552A72558A00E98ED4 /* OptimaEL-Text.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7445A482A72558A00E98ED4 /* OptimaEL-Text.ttf */; };
+		C7445A562A72558A00E98ED4 /* OptimaEL-Text.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7445A482A72558A00E98ED4 /* OptimaEL-Text.ttf */; };
+		C7445A572A72558A00E98ED4 /* AkzidenzGroteskBQ-Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7445A492A72558A00E98ED4 /* AkzidenzGroteskBQ-Reg.ttf */; };
+		C7445A582A72558A00E98ED4 /* AkzidenzGroteskBQ-Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7445A492A72558A00E98ED4 /* AkzidenzGroteskBQ-Reg.ttf */; };
+		C7445A592A72558A00E98ED4 /* AkzidenzGroteskBQ-Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7445A492A72558A00E98ED4 /* AkzidenzGroteskBQ-Reg.ttf */; };
+		C7445A5A2A72558A00E98ED4 /* OptimaDisplay-Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7445A4A2A72558A00E98ED4 /* OptimaDisplay-Roman.ttf */; };
+		C7445A5B2A72558A00E98ED4 /* OptimaDisplay-Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7445A4A2A72558A00E98ED4 /* OptimaDisplay-Roman.ttf */; };
+		C7445A5C2A72558A00E98ED4 /* OptimaDisplay-Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7445A4A2A72558A00E98ED4 /* OptimaDisplay-Roman.ttf */; };
+		C7445A5D2A72558A00E98ED4 /* OptimaDisplay-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7445A4B2A72558A00E98ED4 /* OptimaDisplay-Light.ttf */; };
+		C7445A5E2A72558A00E98ED4 /* OptimaDisplay-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7445A4B2A72558A00E98ED4 /* OptimaDisplay-Light.ttf */; };
+		C7445A5F2A72558A00E98ED4 /* OptimaDisplay-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7445A4B2A72558A00E98ED4 /* OptimaDisplay-Light.ttf */; };
+		C7445A602A72558A00E98ED4 /* AkzidenzGroteskBQ-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7445A4C2A72558A00E98ED4 /* AkzidenzGroteskBQ-Bold.ttf */; };
+		C7445A612A72558A00E98ED4 /* AkzidenzGroteskBQ-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7445A4C2A72558A00E98ED4 /* AkzidenzGroteskBQ-Bold.ttf */; };
+		C7445A622A72558A00E98ED4 /* AkzidenzGroteskBQ-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7445A4C2A72558A00E98ED4 /* AkzidenzGroteskBQ-Bold.ttf */; };
+		C7445A632A72558A00E98ED4 /* OptimaEL-Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7445A4D2A72558A00E98ED4 /* OptimaEL-Roman.ttf */; };
+		C7445A642A72558A00E98ED4 /* OptimaEL-Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7445A4D2A72558A00E98ED4 /* OptimaEL-Roman.ttf */; };
+		C7445A652A72558A00E98ED4 /* OptimaEL-Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7445A4D2A72558A00E98ED4 /* OptimaEL-Roman.ttf */; };
 		C74933EB2A723268000C0BCD /* Estee_LauderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74933EA2A723268000C0BCD /* Estee_LauderApp.swift */; };
-		C74933ED2A723268000C0BCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74933EC2A723268000C0BCD /* ContentView.swift */; };
 		C74933EF2A72326A000C0BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74933EE2A72326A000C0BCD /* Assets.xcassets */; };
 		C74933F22A72326A000C0BCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74933F12A72326A000C0BCD /* Preview Assets.xcassets */; };
 		C74933FC2A72326A000C0BCD /* Estee_LauderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74933FB2A72326A000C0BCD /* Estee_LauderTests.swift */; };
 		C74934062A72326A000C0BCD /* Estee_LauderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74934052A72326A000C0BCD /* Estee_LauderUITests.swift */; };
 		C74934082A72326A000C0BCD /* Estee_LauderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74934072A72326A000C0BCD /* Estee_LauderUITestsLaunchTests.swift */; };
+		C74934162A723CEB000C0BCD /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74934152A723CEB000C0BCD /* Product.swift */; };
+		C74934192A7241E3000C0BCD /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74934182A7241E3000C0BCD /* ProductCard.swift */; };
+		C7809A082A73429200BF474E /* ContentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7809A072A73429200BF474E /* ContentsView.swift */; };
+		C7809A0C2A73585700BF474E /* CartButtom.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7809A0B2A73585700BF474E /* CartButtom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +61,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C7445A462A72558A00E98ED4 /* OptimaDisplay-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaDisplay-Book.ttf"; sourceTree = "<group>"; };
+		C7445A472A72558A00E98ED4 /* OptimaDisplay-UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaDisplay-UltraLight.ttf"; sourceTree = "<group>"; };
+		C7445A482A72558A00E98ED4 /* OptimaEL-Text.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaEL-Text.ttf"; sourceTree = "<group>"; };
+		C7445A492A72558A00E98ED4 /* AkzidenzGroteskBQ-Reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AkzidenzGroteskBQ-Reg.ttf"; sourceTree = "<group>"; };
+		C7445A4A2A72558A00E98ED4 /* OptimaDisplay-Roman.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaDisplay-Roman.ttf"; sourceTree = "<group>"; };
+		C7445A4B2A72558A00E98ED4 /* OptimaDisplay-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaDisplay-Light.ttf"; sourceTree = "<group>"; };
+		C7445A4C2A72558A00E98ED4 /* AkzidenzGroteskBQ-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AkzidenzGroteskBQ-Bold.ttf"; sourceTree = "<group>"; };
+		C7445A4D2A72558A00E98ED4 /* OptimaEL-Roman.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaEL-Roman.ttf"; sourceTree = "<group>"; };
+		C7445A662A7256EE00E98ED4 /* Estee-Lauder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Estee-Lauder-Info.plist"; sourceTree = SOURCE_ROOT; };
 		C74933E72A723268000C0BCD /* Estee Lauder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Estee Lauder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74933EA2A723268000C0BCD /* Estee_LauderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estee_LauderApp.swift; sourceTree = "<group>"; };
-		C74933EC2A723268000C0BCD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C74933EE2A72326A000C0BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C74933F12A72326A000C0BCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C74933F72A72326A000C0BCD /* Estee LauderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Estee LauderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +79,10 @@
 		C74934012A72326A000C0BCD /* Estee LauderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Estee LauderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74934052A72326A000C0BCD /* Estee_LauderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estee_LauderUITests.swift; sourceTree = "<group>"; };
 		C74934072A72326A000C0BCD /* Estee_LauderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estee_LauderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C74934152A723CEB000C0BCD /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		C74934182A7241E3000C0BCD /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		C7809A072A73429200BF474E /* ContentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsView.swift; sourceTree = "<group>"; };
+		C7809A0B2A73585700BF474E /* CartButtom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButtom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +110,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C7445A452A7253F800E98ED4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C7445A4C2A72558A00E98ED4 /* AkzidenzGroteskBQ-Bold.ttf */,
+				C7445A482A72558A00E98ED4 /* OptimaEL-Text.ttf */,
+				C7445A4D2A72558A00E98ED4 /* OptimaEL-Roman.ttf */,
+				C7445A492A72558A00E98ED4 /* AkzidenzGroteskBQ-Reg.ttf */,
+				C7445A462A72558A00E98ED4 /* OptimaDisplay-Book.ttf */,
+				C7445A4B2A72558A00E98ED4 /* OptimaDisplay-Light.ttf */,
+				C7445A4A2A72558A00E98ED4 /* OptimaDisplay-Roman.ttf */,
+				C7445A472A72558A00E98ED4 /* OptimaDisplay-UltraLight.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		C74933DE2A723268000C0BCD = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +148,11 @@
 		C74933E92A723268000C0BCD /* Estee Lauder */ = {
 			isa = PBXGroup;
 			children = (
+				C7445A662A7256EE00E98ED4 /* Estee-Lauder-Info.plist */,
 				C74933EA2A723268000C0BCD /* Estee_LauderApp.swift */,
-				C74933EC2A723268000C0BCD /* ContentView.swift */,
+				C749341A2A724BBF000C0BCD /* Views */,
+				C74934172A7241C3000C0BCD /* Components */,
+				C74934142A723CB7000C0BCD /* Models */,
 				C74933EE2A72326A000C0BCD /* Assets.xcassets */,
 				C74933F02A72326A000C0BCD /* Preview Content */,
 			);
@@ -125,6 +182,32 @@
 				C74934072A72326A000C0BCD /* Estee_LauderUITestsLaunchTests.swift */,
 			);
 			path = "Estee LauderUITests";
+			sourceTree = "<group>";
+		};
+		C74934142A723CB7000C0BCD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C74934152A723CEB000C0BCD /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C74934172A7241C3000C0BCD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C74934182A7241E3000C0BCD /* ProductCard.swift */,
+				C7809A0B2A73585700BF474E /* CartButtom.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C749341A2A724BBF000C0BCD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C7809A072A73429200BF474E /* ContentsView.swift */,
+				C7445A452A7253F800E98ED4 /* Fonts */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +314,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7445A5D2A72558A00E98ED4 /* OptimaDisplay-Light.ttf in Resources */,
+				C7445A632A72558A00E98ED4 /* OptimaEL-Roman.ttf in Resources */,
+				C7445A5A2A72558A00E98ED4 /* OptimaDisplay-Roman.ttf in Resources */,
+				C7445A4E2A72558A00E98ED4 /* OptimaDisplay-Book.ttf in Resources */,
+				C7445A512A72558A00E98ED4 /* OptimaDisplay-UltraLight.ttf in Resources */,
+				C7445A602A72558A00E98ED4 /* AkzidenzGroteskBQ-Bold.ttf in Resources */,
+				C7445A542A72558A00E98ED4 /* OptimaEL-Text.ttf in Resources */,
 				C74933F22A72326A000C0BCD /* Preview Assets.xcassets in Resources */,
+				C7445A572A72558A00E98ED4 /* AkzidenzGroteskBQ-Reg.ttf in Resources */,
 				C74933EF2A72326A000C0BCD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +331,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7445A612A72558A00E98ED4 /* AkzidenzGroteskBQ-Bold.ttf in Resources */,
+				C7445A5E2A72558A00E98ED4 /* OptimaDisplay-Light.ttf in Resources */,
+				C7445A4F2A72558A00E98ED4 /* OptimaDisplay-Book.ttf in Resources */,
+				C7445A642A72558A00E98ED4 /* OptimaEL-Roman.ttf in Resources */,
+				C7445A552A72558A00E98ED4 /* OptimaEL-Text.ttf in Resources */,
+				C7445A5B2A72558A00E98ED4 /* OptimaDisplay-Roman.ttf in Resources */,
+				C7445A582A72558A00E98ED4 /* AkzidenzGroteskBQ-Reg.ttf in Resources */,
+				C7445A522A72558A00E98ED4 /* OptimaDisplay-UltraLight.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +346,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7445A622A72558A00E98ED4 /* AkzidenzGroteskBQ-Bold.ttf in Resources */,
+				C7445A5F2A72558A00E98ED4 /* OptimaDisplay-Light.ttf in Resources */,
+				C7445A502A72558A00E98ED4 /* OptimaDisplay-Book.ttf in Resources */,
+				C7445A652A72558A00E98ED4 /* OptimaEL-Roman.ttf in Resources */,
+				C7445A562A72558A00E98ED4 /* OptimaEL-Text.ttf in Resources */,
+				C7445A5C2A72558A00E98ED4 /* OptimaDisplay-Roman.ttf in Resources */,
+				C7445A592A72558A00E98ED4 /* AkzidenzGroteskBQ-Reg.ttf in Resources */,
+				C7445A532A72558A00E98ED4 /* OptimaDisplay-UltraLight.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +364,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C74933ED2A723268000C0BCD /* ContentView.swift in Sources */,
 				C74933EB2A723268000C0BCD /* Estee_LauderApp.swift in Sources */,
+				C7809A082A73429200BF474E /* ContentsView.swift in Sources */,
+				C74934162A723CEB000C0BCD /* Product.swift in Sources */,
+				C74934192A7241E3000C0BCD /* ProductCard.swift in Sources */,
+				C7809A0C2A73585700BF474E /* CartButtom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +529,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Estee Lauder/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Estee-Lauder-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -447,6 +558,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Estee Lauder/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Estee-Lauder-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
