@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C735D3EF2A79ACBD00D78274 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C735D3EE2A79ACBD00D78274 /* CartView.swift */; };
 		C7445A4E2A72558A00E98ED4 /* OptimaDisplay-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7445A462A72558A00E98ED4 /* OptimaDisplay-Book.ttf */; };
 		C7445A4F2A72558A00E98ED4 /* OptimaDisplay-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7445A462A72558A00E98ED4 /* OptimaDisplay-Book.ttf */; };
 		C7445A502A72558A00E98ED4 /* OptimaDisplay-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7445A462A72558A00E98ED4 /* OptimaDisplay-Book.ttf */; };
@@ -38,9 +39,17 @@
 		C74934062A72326A000C0BCD /* Estee_LauderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74934052A72326A000C0BCD /* Estee_LauderUITests.swift */; };
 		C74934082A72326A000C0BCD /* Estee_LauderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74934072A72326A000C0BCD /* Estee_LauderUITestsLaunchTests.swift */; };
 		C74934162A723CEB000C0BCD /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74934152A723CEB000C0BCD /* Product.swift */; };
-		C74934192A7241E3000C0BCD /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74934182A7241E3000C0BCD /* ProductCard.swift */; };
+		C7582E582A7A1A060032719A /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7582E572A7A1A060032719A /* CartManager.swift */; };
+		C7582E5A2A7A232F0032719A /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74934182A7241E3000C0BCD /* ProductCard.swift */; };
+		C7582E5C2A7A28340032719A /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7582E5B2A7A28340032719A /* ProductRow.swift */; };
+		C7582E602A7A3F120032719A /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7582E5F2A7A3F120032719A /* PaymentButton.swift */; };
+		C7582E632A7A56E10032719A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7582E622A7A56E10032719A /* HomeView.swift */; };
+		C7582E652A7A578D0032719A /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7582E642A7A578D0032719A /* QuizView.swift */; };
+		C7582E672A7A57CE0032719A /* RutineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7582E662A7A57CE0032719A /* RutineView.swift */; };
+		C7582E692A7A59FD0032719A /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7582E682A7A59FD0032719A /* TabBar.swift */; };
 		C7809A082A73429200BF474E /* ContentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7809A072A73429200BF474E /* ContentsView.swift */; };
 		C7809A0C2A73585700BF474E /* CartButtom.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7809A0B2A73585700BF474E /* CartButtom.swift */; };
+		C7809A0E2A79812200BF474E /* Montserrat in Resources */ = {isa = PBXBuildFile; fileRef = C7809A0D2A79812200BF474E /* Montserrat */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +70,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C735D3EE2A79ACBD00D78274 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		C7445A462A72558A00E98ED4 /* OptimaDisplay-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaDisplay-Book.ttf"; sourceTree = "<group>"; };
 		C7445A472A72558A00E98ED4 /* OptimaDisplay-UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaDisplay-UltraLight.ttf"; sourceTree = "<group>"; };
 		C7445A482A72558A00E98ED4 /* OptimaEL-Text.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaEL-Text.ttf"; sourceTree = "<group>"; };
@@ -81,8 +91,16 @@
 		C74934072A72326A000C0BCD /* Estee_LauderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estee_LauderUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C74934152A723CEB000C0BCD /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		C74934182A7241E3000C0BCD /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		C7582E572A7A1A060032719A /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		C7582E5B2A7A28340032719A /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		C7582E5F2A7A3F120032719A /* PaymentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButton.swift; sourceTree = "<group>"; };
+		C7582E622A7A56E10032719A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C7582E642A7A578D0032719A /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		C7582E662A7A57CE0032719A /* RutineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RutineView.swift; sourceTree = "<group>"; };
+		C7582E682A7A59FD0032719A /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		C7809A072A73429200BF474E /* ContentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsView.swift; sourceTree = "<group>"; };
 		C7809A0B2A73585700BF474E /* CartButtom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButtom.swift; sourceTree = "<group>"; };
+		C7809A0D2A79812200BF474E /* Montserrat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Montserrat; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +131,7 @@
 		C7445A452A7253F800E98ED4 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				C7809A0D2A79812200BF474E /* Montserrat */,
 				C7445A4C2A72558A00E98ED4 /* AkzidenzGroteskBQ-Bold.ttf */,
 				C7445A482A72558A00E98ED4 /* OptimaEL-Text.ttf */,
 				C7445A4D2A72558A00E98ED4 /* OptimaEL-Roman.ttf */,
@@ -149,12 +168,12 @@
 			isa = PBXGroup;
 			children = (
 				C7445A662A7256EE00E98ED4 /* Estee-Lauder-Info.plist */,
-				C74933EA2A723268000C0BCD /* Estee_LauderApp.swift */,
 				C749341A2A724BBF000C0BCD /* Views */,
 				C74934172A7241C3000C0BCD /* Components */,
 				C74934142A723CB7000C0BCD /* Models */,
 				C74933EE2A72326A000C0BCD /* Assets.xcassets */,
 				C74933F02A72326A000C0BCD /* Preview Content */,
+				C7582E572A7A1A060032719A /* CartManager.swift */,
 			);
 			path = "Estee Lauder";
 			sourceTree = "<group>";
@@ -197,6 +216,8 @@
 			children = (
 				C74934182A7241E3000C0BCD /* ProductCard.swift */,
 				C7809A0B2A73585700BF474E /* CartButtom.swift */,
+				C7582E5B2A7A28340032719A /* ProductRow.swift */,
+				C7582E5F2A7A3F120032719A /* PaymentButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -204,10 +225,24 @@
 		C749341A2A724BBF000C0BCD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C7582E682A7A59FD0032719A /* TabBar.swift */,
 				C7809A072A73429200BF474E /* ContentsView.swift */,
+				C7582E622A7A56E10032719A /* HomeView.swift */,
+				C7582E642A7A578D0032719A /* QuizView.swift */,
+				C7582E662A7A57CE0032719A /* RutineView.swift */,
+				C7582E612A7A51700032719A /* SecondaryViews */,
 				C7445A452A7253F800E98ED4 /* Fonts */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		C7582E612A7A51700032719A /* SecondaryViews */ = {
+			isa = PBXGroup;
+			children = (
+				C735D3EE2A79ACBD00D78274 /* CartView.swift */,
+				C74933EA2A723268000C0BCD /* Estee_LauderApp.swift */,
+			);
+			path = SecondaryViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,6 +356,7 @@
 				C7445A512A72558A00E98ED4 /* OptimaDisplay-UltraLight.ttf in Resources */,
 				C7445A602A72558A00E98ED4 /* AkzidenzGroteskBQ-Bold.ttf in Resources */,
 				C7445A542A72558A00E98ED4 /* OptimaEL-Text.ttf in Resources */,
+				C7809A0E2A79812200BF474E /* Montserrat in Resources */,
 				C74933F22A72326A000C0BCD /* Preview Assets.xcassets in Resources */,
 				C7445A572A72558A00E98ED4 /* AkzidenzGroteskBQ-Reg.ttf in Resources */,
 				C74933EF2A72326A000C0BCD /* Assets.xcassets in Resources */,
@@ -364,11 +400,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7582E602A7A3F120032719A /* PaymentButton.swift in Sources */,
+				C7582E672A7A57CE0032719A /* RutineView.swift in Sources */,
+				C735D3EF2A79ACBD00D78274 /* CartView.swift in Sources */,
+				C7582E652A7A578D0032719A /* QuizView.swift in Sources */,
 				C74933EB2A723268000C0BCD /* Estee_LauderApp.swift in Sources */,
+				C7582E632A7A56E10032719A /* HomeView.swift in Sources */,
+				C7582E582A7A1A060032719A /* CartManager.swift in Sources */,
 				C7809A082A73429200BF474E /* ContentsView.swift in Sources */,
+				C7582E5C2A7A28340032719A /* ProductRow.swift in Sources */,
+				C7582E692A7A59FD0032719A /* TabBar.swift in Sources */,
 				C74934162A723CEB000C0BCD /* Product.swift in Sources */,
-				C74934192A7241E3000C0BCD /* ProductCard.swift in Sources */,
 				C7809A0C2A73585700BF474E /* CartButtom.swift in Sources */,
+				C7582E5A2A7A232F0032719A /* ProductCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

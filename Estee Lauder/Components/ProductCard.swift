@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ProductCard: View {
+    @EnvironmentObject var cartManager: CartManager
     var product : Product
     
     var body: some View {
@@ -21,7 +22,8 @@ struct ProductCard: View {
                 VStack(alignment: .leading) {
                     
                     Text(product.name)
-                        .bold()
+                        .font(.custom("OptimaEL-Roman", size: 20))
+                    
                     Text("$\(product.price)")
                         .font(.caption)
                     
@@ -37,7 +39,7 @@ struct ProductCard: View {
         .shadow(radius: 3)
         
             Button{
-                print("Added to cart!")
+                cartManager.addToCart(product: product)
                 
             
             } label: {
@@ -63,5 +65,7 @@ struct ProductCard_Previews: PreviewProvider {
     static var previews: some View {
         //takes the first item of the array
         ProductCard(product : productList[0])
+        //this inicialices the instance
+            .environmentObject(CartManager())
     }
 }
