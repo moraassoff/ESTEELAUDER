@@ -28,6 +28,7 @@ struct ContentsView: View {
             .navigationTitle(Text("Shop Nutritious"))
             .font(.custom("OptimaEL-Roman", size: 20))
             
+            
             //spell the nutriciuos as EL
             .toolbar {
                 NavigationLink {
