@@ -41,17 +41,19 @@ struct QuizView: View {
         ScrollView{
             VStack{
                 
+                
                 Text("Nourish Your Skin, Embrace Your Glow With Nutritious")
                     .font(.largeTitle)
                     .fontWeight(.thin)
                     .multilineTextAlignment(.center)
                 Spacer()
-                
-                Text("Ingeniously calibrated. Nutrient-rich. Featuring 92%+ naturally derived formulas. Skincare that will help skin flourish and glow.")
-                    .fontWeight(.ultraLight)
-                    .font(.title2)
-                    .multilineTextAlignment(.center)
+                HStack{
+                    Image("ESTEELOGO")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                } .padding()
                     .padding()
+
                 
                 
                 HStack{
@@ -64,6 +66,16 @@ struct QuizView: View {
                 .padding()
                 
                 VStack{
+                    
+                    HStack{
+                        Text("Ingeniously calibrated. Nutrient-rich. Featuring 92%+ naturally derived formulas. Skincare that will help skin flourish and glow.")
+                            .fontWeight(.thin)
+                            .font(.title2)
+                            .multilineTextAlignment(.center)
+                            .padding()
+                            
+                    }.padding()
+                    
                     Text("About Nutritious")
                         .font(.title)
                         .fontWeight(.semibold)
@@ -107,7 +119,7 @@ struct QuizView: View {
                     Spacer()
                     Text("Click on the cards to reveal the answer!")
                         .fontWeight(.light)
-                        .font(.subheadline)
+                        .font(.headline)
                         .foregroundColor(Color.pink)
                         .frame(width: 300, height: 40 )
                     Spacer()

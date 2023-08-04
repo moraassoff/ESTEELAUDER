@@ -13,16 +13,21 @@ struct HomeView: View {
     let images : [String] = ["1", "2", "3", "4"]
     
     var body: some View {
+      
         ScrollView {
             VStack(spacing: 8) {
-                Text("Feel the Love, Feel the Nourishment, Feel Nutritious")
-                    .font(.largeTitle)
-                    .fontWeight(.thin)
-                    .multilineTextAlignment(.center)
-                    .frame(width: 404.0, height: 150)
+                Spacer()
+                HStack{
+                    Image("ESTEELOGO")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        
+                }
+                .padding()
                 
-                
-                
+                VStack{
+                    
+                }
                 
                 //ADD SCROLLING IMAGES/ GIFS OF WOMAN WITH PRODUCTS
                 
@@ -52,6 +57,13 @@ struct HomeView: View {
                     }
                     }
                 }
+            
+            VStack{
+                Text("Feel the Love, Feel the Nourishment, Feel Nutritious")
+                    .font(.largeTitle)
+                    .fontWeight(.thin)
+                    .multilineTextAlignment(.center)
+            }
                 
             VStack (spacing: 10){
                 Spacer()
@@ -74,8 +86,12 @@ struct HomeView: View {
                             .foregroundColor(Color.white)
                             .bold()
                         
-                        Text("$40")
-                        
+                        Text("  Purify. Pores. Glow.")
+                            .font(.title)
+                        .fontWeight(.thin)
+                        .foregroundColor(Color.white)
+                        .multilineTextAlignment(.center)
+                        Spacer()
                         
                     }
                     
@@ -84,7 +100,7 @@ struct HomeView: View {
                 }
                 
                 .background(.pink)
-                .cornerRadius(10)
+                .cornerRadius(30)
                 Spacer()
                
                 
@@ -100,7 +116,12 @@ struct HomeView: View {
                             .foregroundColor(Color.white)
                             .bold()
                         
-                        Text("$40")
+                        Text("  Pores. Hydration. Glow.")
+                            .font(.title)
+                        .fontWeight(.thin)
+                        .foregroundColor(Color.white)
+                        .multilineTextAlignment(.center)
+                    Spacer()
                         
                         
                     }
@@ -108,7 +129,7 @@ struct HomeView: View {
                     
                 }
                 .background(.pink)
-                .cornerRadius(10)
+                .cornerRadius(30)
                 Spacer()
                 
                 
@@ -118,20 +139,27 @@ struct HomeView: View {
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 350)
                     .cornerRadius(10)
+                    
                     VStack(alignment: .leading, spacing: 10) {
-                        Text("AIRY LOTION")
+                        Text("              AIRY LOTION")
                             .font(.title3)
                             .foregroundColor(Color.white)
+                            .multilineTextAlignment(.center)
                             .bold()
                         
-                        Text("$40")
+                        Text("  Elevate. Hydrate. Glow.")
+                            .font(.title)
+                        .fontWeight(.thin)
+                        .foregroundColor(Color.white)
+                        .multilineTextAlignment(.center)
+                    Spacer()
                         
                         
                     }
                 }
                 
                 .background(.pink)
-                .cornerRadius(10)
+                .cornerRadius(30)
                
                 
                 
@@ -146,7 +174,13 @@ struct HomeView: View {
                             .foregroundColor(Color.white)
                             .font(.title3)
                             .bold()
-                        Text("$40")
+                        Text("      Prep. Infuse. Glow.")
+                            .font(.title)
+                            .fontWeight(.thin)
+                            .foregroundColor(Color.white)
+                            .multilineTextAlignment(.center)
+                            
+                    Spacer()
                         
                             
                         
@@ -154,7 +188,7 @@ struct HomeView: View {
                     
                 }
                 .background(.pink)
-                .cornerRadius(10)
+                .cornerRadius(30)
                 
                 
                 

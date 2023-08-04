@@ -10,7 +10,7 @@ import SwiftUI
 struct Estee_LauderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentsView()
+            HomeView()
         }
     }
 }

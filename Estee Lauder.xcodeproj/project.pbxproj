@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		518FA7F97D09352B4512BD24 /* Pods_Estee_Lauder_Estee_LauderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6999A18BB3055BBF7567C645 /* Pods_Estee_Lauder_Estee_LauderUITests.framework */; };
-		7398ADC3D31C74F8C9769352 /* Pods_Estee_Lauder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56730120BB9EC27239AEE158 /* Pods_Estee_Lauder.framework */; };
 		C735D3EF2A79ACBD00D78274 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C735D3EE2A79ACBD00D78274 /* CartView.swift */; };
 		C7445A4E2A72558A00E98ED4 /* OptimaDisplay-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7445A462A72558A00E98ED4 /* OptimaDisplay-Book.ttf */; };
 		C7445A4F2A72558A00E98ED4 /* OptimaDisplay-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7445A462A72558A00E98ED4 /* OptimaDisplay-Book.ttf */; };
@@ -53,7 +52,8 @@
 		C7809A0C2A73585700BF474E /* CartButtom.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7809A0B2A73585700BF474E /* CartButtom.swift */; };
 		C7809A0E2A79812200BF474E /* Montserrat in Resources */ = {isa = PBXBuildFile; fileRef = C7809A0D2A79812200BF474E /* Montserrat */; };
 		C7821CB12A7B3E27005C9203 /* EL.gif in Resources */ = {isa = PBXBuildFile; fileRef = C7821CB02A7B3E27005C9203 /* EL.gif */; };
-		C7821CB32A7B3EED005C9203 /* gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7821CB22A7B3EED005C9203 /* gif.swift */; };
+		C7821CF42A7CF401005C9203 /* Pods_Estee_Lauder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56730120BB9EC27239AEE158 /* Pods_Estee_Lauder.framework */; };
+		C7821CF52A7CF401005C9203 /* Pods_Estee_Lauder.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 56730120BB9EC27239AEE158 /* Pods_Estee_Lauder.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F876BDCB5C2B808307958C00 /* Pods_Estee_LauderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E863644D22766D5431A1D83 /* Pods_Estee_LauderTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +73,20 @@
 			remoteInfo = "Estee Lauder";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C7821CF62A7CF401005C9203 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C7821CF52A7CF401005C9203 /* Pods_Estee_Lauder.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0DD375A4B9B6D7A01C590961 /* Pods-Estee Lauder-Estee LauderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Estee Lauder-Estee LauderUITests.release.xcconfig"; path = "Target Support Files/Pods-Estee Lauder-Estee LauderUITests/Pods-Estee Lauder-Estee LauderUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,7 +128,6 @@
 		C7809A0B2A73585700BF474E /* CartButtom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButtom.swift; sourceTree = "<group>"; };
 		C7809A0D2A79812200BF474E /* Montserrat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Montserrat; sourceTree = "<group>"; };
 		C7821CB02A7B3E27005C9203 /* EL.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = EL.gif; sourceTree = "<group>"; };
-		C7821CB22A7B3EED005C9203 /* gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gif.swift; sourceTree = "<group>"; };
 		E8D7F3578B2E85EAC24D7652 /* Pods-Estee Lauder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Estee Lauder.release.xcconfig"; path = "Target Support Files/Pods-Estee Lauder/Pods-Estee Lauder.release.xcconfig"; sourceTree = "<group>"; };
 		F736B2EC4F4D8FF44868797A /* Pods-Estee LauderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Estee LauderTests.debug.xcconfig"; path = "Target Support Files/Pods-Estee LauderTests/Pods-Estee LauderTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,7 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7398ADC3D31C74F8C9769352 /* Pods_Estee_Lauder.framework in Frameworks */,
+				C7821CF42A7CF401005C9203 /* Pods_Estee_Lauder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,10 +270,10 @@
 		C749341A2A724BBF000C0BCD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C74933EA2A723268000C0BCD /* Estee_LauderApp.swift */,
 				C7582E682A7A59FD0032719A /* TabBar.swift */,
 				C7809A072A73429200BF474E /* ContentsView.swift */,
 				C7582E622A7A56E10032719A /* HomeView.swift */,
-				C7821CB22A7B3EED005C9203 /* gif.swift */,
 				C7582E642A7A578D0032719A /* QuizView.swift */,
 				C7582E662A7A57CE0032719A /* RutineView.swift */,
 				C7582E612A7A51700032719A /* SecondaryViews */,
@@ -273,7 +286,6 @@
 			isa = PBXGroup;
 			children = (
 				C735D3EE2A79ACBD00D78274 /* CartView.swift */,
-				C74933EA2A723268000C0BCD /* Estee_LauderApp.swift */,
 			);
 			path = SecondaryViews;
 			sourceTree = "<group>";
@@ -303,6 +315,7 @@
 				C74933E42A723268000C0BCD /* Frameworks */,
 				C74933E52A723268000C0BCD /* Resources */,
 				5A5E0E9FBCB11CDDABA847B8 /* [CP] Embed Pods Frameworks */,
+				C7821CF62A7CF401005C9203 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -557,7 +570,6 @@
 			files = (
 				C7582E602A7A3F120032719A /* PaymentButton.swift in Sources */,
 				C7582E672A7A57CE0032719A /* RutineView.swift in Sources */,
-				C7821CB32A7B3EED005C9203 /* gif.swift in Sources */,
 				C735D3EF2A79ACBD00D78274 /* CartView.swift in Sources */,
 				C7582E652A7A578D0032719A /* QuizView.swift in Sources */,
 				C74933EB2A723268000C0BCD /* Estee_LauderApp.swift in Sources */,

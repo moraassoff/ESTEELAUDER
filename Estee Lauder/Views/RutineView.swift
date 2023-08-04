@@ -10,6 +10,7 @@ import SwiftUI
 struct RutineView: View {
     var body: some View {
         VStack{
+            
             Text("Follow the nutritious rutine!")
             Spacer()
             Text("Your Nutritious Ritual: Unleash Your Inner Glow!, Share your rutine with us")

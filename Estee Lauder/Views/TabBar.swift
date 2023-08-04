@@ -18,11 +18,11 @@ struct TabBar: View {
             QuizView()
                 .tabItem {
                     
-                    Label("My Skin", systemImage: "person.circle.fill")
+                    Label("Nutritious", systemImage: "rays")
                 }
             HomeView()
                 .tabItem {
-                    Label("Home", systemImage: "house")
+                    Label("Products", systemImage: "house")
                 }
             
             RutineView()
