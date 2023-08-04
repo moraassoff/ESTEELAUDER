@@ -7,67 +7,134 @@
 
 import SwiftUI
 import SSSwiftUIGIFView
-struct QuizView: View {
-    @State private var name = ""
-    @State private var textTitle = "What is your name?"
-    var body: some View {
+struct FlipEffect: GeometryEffect {
     
-        VStack{
-            Spacer()
-            
-            HStack{
-                Text("Do you know what is your skintype?")
-                    .font(.largeTitle)
-                    .fontWeight(.thin)
-                    .foregroundColor(Color.white)
-                    .multilineTextAlignment(.center)
-                    .frame(width: 400, height: 100)
-                    .background(.pink)
-                    .cornerRadius(20)
-            }
-            
-            HStack{
-                SwiftUIGIFPlayerView(gifName: "EL")
-            }
+    var animatableData: Double {
+        get {angle}
+        set {angle = newValue }
+    }
+    @Binding var flipped: Bool
+    var angle: Double
+    
+    func effectValue(size: CGSize) -> ProjectionTransform {
+        
+        DispatchQueue.main.async {
             
             
-            Text(textTitle)
-                .font(.title)
-            
-            TextField("Type your name here", text: $name)
-                .font(.title2)
-                .foregroundColor(Color.white)
-                .multilineTextAlignment(.center)
-                .border(Color.gray, width: 1)
-                .frame(width: 300, height: 30)
-                .background(Color(red: 0.851, green: 0.68, blue: 0.739))
-                .cornerRadius(10)
-                
-            
-            Button("Start") {
-                textTitle = "Welcome \(name)!"
-                    
-            }
-            .font(.title2)
-            .buttonStyle(.borderedProminent)
-            .tint(.pink)
-
-            Spacer()
-            Spacer()
-            Spacer()
-            
-            
-            VStack{
-                Text("hi")
-            }
-            
-            //interactive UIs cURRICULUM,
+            flipped = angle >= 90 && angle < 270
         }
+        print(angle)
         
         
         
+        var transform3d = CATransform3DIdentity
+        
+         return ProjectionTransform(transform3d)
+       
     }
 }
+struct QuizView: View {
+    @State var flipped: Bool = false
+    @State var flip: Bool = false
+    var body: some View {
+        ScrollView{
+            VStack{
+                
+                Text("Nourish Your Skin, Embrace Your Glow With Nutritious")
+                    .font(.largeTitle)
+                    .fontWeight(.thin)
+                    .multilineTextAlignment(.center)
+                Spacer()
+                
+                Text("Ingeniously calibrated. Nutrient-rich. Featuring 92%+ naturally derived formulas. Skincare that will help skin flourish and glow.")
+                    .fontWeight(.ultraLight)
+                    .font(.title2)
+                    .multilineTextAlignment(.center)
+                    .padding()
+                
+                
+                HStack{
+                    SwiftUIGIFPlayerView(gifName: "EL")
+                        .frame(width: 370 ,height: 220)
+                        .background(.pink)
+                        .cornerRadius(10)
+                        .padding()
+                }
+                .padding()
+                
+                VStack{
+                    Text("About Nutritious")
+                        .font(.title)
+                        .fontWeight(.semibold)
+                        .multilineTextAlignment(.center)
+                    
+                }
+                HStack {
+                    
+                    Image("EL_madewithout")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 190)
+                        .cornerRadius(10)
+                    
+                    Image("EL_madewith")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 190)
+                        .cornerRadius(10)
+                    
+                }
+                
+                Spacer()
+                Spacer()
+                Spacer()
+              
+                
+                VStack{
+                    
+                    Text("Nutri-Q&A")
+                        .fontWeight(.bold)
+                        .font(.title)
+                        .frame(width: 160, height: 75)
+                        .background(.pink)
+                        .cornerRadius(10)
+                        .foregroundColor(.white)
+                    
+                       
+                    Spacer()
+                    Spacer()
+                    Spacer()
+                    
+                    VStack{
+                        
+                        Image("QWhatis")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 300)
+                            .cornerRadius(10)
+                        
+                    }
+                }
+                
+            }
+                
+                
+                
+                
+      
+            
+            }
+          
+        
+        }
+        
+            
+        }
+        
+            
+        
+
+
 
 struct QuizView_Previews: PreviewProvider {
     static var previews: some View {

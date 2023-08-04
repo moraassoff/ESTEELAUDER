@@ -12,7 +12,7 @@ struct RutineView: View {
         VStack{
             Text("Follow the nutritious rutine!")
             Spacer()
-            Text("Share your rutine with us")
+            Text("Your Nutritious Ritual: Unleash Your Inner Glow!, Share your rutine with us")
         }
     }
 }
