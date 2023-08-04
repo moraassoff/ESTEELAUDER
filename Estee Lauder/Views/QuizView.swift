@@ -7,35 +7,36 @@
 
 import SwiftUI
 import SSSwiftUIGIFView
-struct FlipEffect: GeometryEffect {
-    
-    var animatableData: Double {
-        get {angle}
-        set {angle = newValue }
-    }
-    @Binding var flipped: Bool
-    var angle: Double
-    
-    func effectValue(size: CGSize) -> ProjectionTransform {
-        
-        DispatchQueue.main.async {
-            
-            
-            flipped = angle >= 90 && angle < 270
-        }
-        print(angle)
-        
-        
-        
-        var transform3d = CATransform3DIdentity
-        
-         return ProjectionTransform(transform3d)
-       
-    }
-}
+
 struct QuizView: View {
-    @State var flipped: Bool = false
-    @State var flip: Bool = false
+    
+    @State var backDegree = 0.0
+    @State var frontDegree = -90.0
+    @State var isFlipped = false
+
+    let width : CGFloat = 200
+    let height : CGFloat = 250
+    let durationAndDelay : CGFloat = 0.3
+
+    //MARK: Flip Card Function
+    func flipCard () {
+        isFlipped = !isFlipped
+        if isFlipped {
+            withAnimation(.linear(duration: durationAndDelay)) {
+                backDegree = 90
+            }
+            withAnimation(.linear(duration: durationAndDelay).delay(durationAndDelay)){
+                frontDegree = 0
+            }
+        } else {
+            withAnimation(.linear(duration: durationAndDelay)) {
+                frontDegree = -90
+            }
+            withAnimation(.linear(duration: durationAndDelay).delay(durationAndDelay)){
+                backDegree = 0
+            }
+        }
+    }
     var body: some View {
         ScrollView{
             VStack{
@@ -89,7 +90,7 @@ struct QuizView: View {
                 Spacer()
                 Spacer()
               
-                
+    
                 VStack{
                     
                     Text("Nutri-Q&A")
@@ -104,23 +105,38 @@ struct QuizView: View {
                     Spacer()
                     Spacer()
                     Spacer()
-                    
-                    VStack{
-                        
-                        Image("QWhatis")
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 300)
-                            .cornerRadius(10)
-                        
-                    }
+                    Text("Click on the cards to reveal the answer!")
+                        .fontWeight(.light)
+                        .font(.subheadline)
+                        .foregroundColor(Color.pink)
+                        .frame(width: 300, height: 40 )
+                    Spacer()
                 }
                 
             }
+            
+            ZStack {
+                CardFront1(width: width, height: height, degree: $frontDegree)
+                CardBack1(width: width, height: height, degree: $backDegree)
+            }.onTapGesture {
+                flipCard ()
+            }
+            
+            
                 
+            ZStack {
+                CardFront2(width: width, height: height, degree: $frontDegree)
+                CardBack2(width: width, height: height, degree: $backDegree)
+            }.onTapGesture {
+                flipCard ()
+            }
                 
-                
-                
+            ZStack {
+                CardFront3(width: width, height: height, degree: $frontDegree)
+                CardBack3(width: width, height: height, degree: $backDegree)
+            }.onTapGesture {
+                flipCard ()
+            }
       
             
             }
@@ -130,6 +146,122 @@ struct QuizView: View {
         
             
         }
+
+
+//1ST CARD
+struct CardBack1 : View {
+    let width : CGFloat
+    let height : CGFloat
+    @Binding var degree : Double
+    
+    var body: some View {
+        VStack{
+            
+            Image("QWhatis")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 300)
+                .cornerRadius(10)
+            
+        }.rotation3DEffect(Angle(degrees: degree), axis: (x: 0, y: 1, z: 0))
+    }
+}
+struct CardFront1 : View {
+    let width : CGFloat
+    let height : CGFloat
+    @Binding var degree : Double
+    
+    var body: some View {
+        VStack {
+            Image("Whatis1")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 300)
+                .cornerRadius(10)
+            
+        }.rotation3DEffect(Angle(degrees: degree), axis: (x: 0, y: 1, z: 0))
+        
+        
+    }
+}
+
+
+//2ND CARD
+
+struct CardBack2 : View {
+    let width : CGFloat
+    let height : CGFloat
+    @Binding var degree : Double
+    
+    var body: some View {
+        VStack{
+            
+            Image("edited6Essentia.jpg")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 300)
+                .cornerRadius(10)
+            
+        }.rotation3DEffect(Angle(degrees: degree), axis: (x: 0, y: 1, z: 0))
+    }
+}
+struct CardFront2 : View {
+    let width : CGFloat
+    let height : CGFloat
+    @Binding var degree : Double
+    
+    var body: some View {
+        VStack {
+            Image("6EssentialA")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 300)
+                .cornerRadius(10)
+            
+        }.rotation3DEffect(Angle(degrees: degree), axis: (x: 0, y: 1, z: 0))
+        
+        
+    }
+}
+
+//3RD CARD
+
+struct CardBack3 : View {
+    let width : CGFloat
+    let height : CGFloat
+    @Binding var degree : Double
+    
+    var body: some View {
+        VStack{
+            
+            Image("QWhatis")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 300)
+                .cornerRadius(10)
+            
+        }.rotation3DEffect(Angle(degrees: degree), axis: (x: 0, y: 1, z: 0))
+    }
+}
+struct CardFront3 : View {
+    let width : CGFloat
+    let height : CGFloat
+    @Binding var degree : Double
+    
+    var body: some View {
+        VStack {
+            Image("Whatis2")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 300)
+                .cornerRadius(10)
+            
+        }.rotation3DEffect(Angle(degrees: degree), axis: (x: 0, y: 1, z: 0))
+        
+        
+    }
+}
+
         
             
         
