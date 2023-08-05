@@ -68,7 +68,7 @@ struct HomeView: View {
             VStack (spacing: 10){
                 Spacer()
                 Spacer()
-                Text("Nutricious Proucts")
+                Text("Nutritious Products")
                     .font(.largeTitle)
                     .fontWeight(.semibold)
                 Spacer()

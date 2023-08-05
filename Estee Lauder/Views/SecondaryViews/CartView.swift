@@ -23,11 +23,14 @@ struct CartView: View {
                 HStack{
                     Text("Your cart total is ")
                     Spacer()
+                    
                     Text("$\(cartManager.total).00")
-                        .bold()
+                    .bold()
+                   
                 }
                 PaymentButton(action: {})
                     .padding()
+                //for implementing apple play you have to be enrolled in apple devs program, which i am not,. this buttom is just a demo, but in a future you could implemment it as a real one and other ways of payment!
                 
             } else{
                 Text("Your cart is empty")

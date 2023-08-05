@@ -63,7 +63,7 @@ struct QuizView: View {
                         .cornerRadius(10)
                         .padding()
                 }
-                .padding()
+                
                 
                 VStack{
                     
@@ -72,7 +72,8 @@ struct QuizView: View {
                             .fontWeight(.thin)
                             .font(.title2)
                             .multilineTextAlignment(.center)
-                            .padding()
+                        
+                            
                             
                     }.padding()
                     
@@ -109,7 +110,7 @@ struct QuizView: View {
                         .fontWeight(.bold)
                         .font(.title)
                         .frame(width: 160, height: 75)
-                        .background(.pink)
+                        .background(Color(red: 0.839, green: 0.355, blue: 0.455))
                         .cornerRadius(10)
                         .foregroundColor(.white)
                     
@@ -126,6 +127,8 @@ struct QuizView: View {
                 }
                 
             }
+            .padding(.top)
+           
             
             ZStack {
                 CardFront1(width: width, height: height, degree: $frontDegree)

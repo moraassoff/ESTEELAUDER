@@ -48,6 +48,7 @@
 		C7582E652A7A578D0032719A /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7582E642A7A578D0032719A /* QuizView.swift */; };
 		C7582E672A7A57CE0032719A /* RutineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7582E662A7A57CE0032719A /* RutineView.swift */; };
 		C7582E692A7A59FD0032719A /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7582E682A7A59FD0032719A /* TabBar.swift */; };
+		C77D0B612A7D77C600415453 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77D0B602A7D77C600415453 /* MainView.swift */; };
 		C7809A082A73429200BF474E /* ContentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7809A072A73429200BF474E /* ContentsView.swift */; };
 		C7809A0C2A73585700BF474E /* CartButtom.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7809A0B2A73585700BF474E /* CartButtom.swift */; };
 		C7809A0E2A79812200BF474E /* Montserrat in Resources */ = {isa = PBXBuildFile; fileRef = C7809A0D2A79812200BF474E /* Montserrat */; };
@@ -124,6 +125,7 @@
 		C7582E642A7A578D0032719A /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
 		C7582E662A7A57CE0032719A /* RutineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RutineView.swift; sourceTree = "<group>"; };
 		C7582E682A7A59FD0032719A /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		C77D0B602A7D77C600415453 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		C7809A072A73429200BF474E /* ContentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsView.swift; sourceTree = "<group>"; };
 		C7809A0B2A73585700BF474E /* CartButtom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButtom.swift; sourceTree = "<group>"; };
 		C7809A0D2A79812200BF474E /* Montserrat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Montserrat; sourceTree = "<group>"; };
@@ -272,6 +274,7 @@
 			children = (
 				C74933EA2A723268000C0BCD /* Estee_LauderApp.swift */,
 				C7582E682A7A59FD0032719A /* TabBar.swift */,
+				C77D0B602A7D77C600415453 /* MainView.swift */,
 				C7809A072A73429200BF474E /* ContentsView.swift */,
 				C7582E622A7A56E10032719A /* HomeView.swift */,
 				C7582E642A7A578D0032719A /* QuizView.swift */,
@@ -569,6 +572,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7582E602A7A3F120032719A /* PaymentButton.swift in Sources */,
+				C77D0B612A7D77C600415453 /* MainView.swift in Sources */,
 				C7582E672A7A57CE0032719A /* RutineView.swift in Sources */,
 				C735D3EF2A79ACBD00D78274 /* CartView.swift in Sources */,
 				C7582E652A7A578D0032719A /* QuizView.swift in Sources */,
