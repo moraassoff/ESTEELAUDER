@@ -48,7 +48,7 @@ struct HomeView: View {
                 }
                 .onAppear {
                     print("Appear")
-                    Timer.scheduledTimer(withTimeInterval: 3, repeats: true) { timer in
+                    Timer.scheduledTimer(withTimeInterval: 10, repeats: true) { timer in
                         if self.currentIndex + 1 == self.images.count {
                             self.currentIndex = 0
                         }else{
@@ -195,7 +195,7 @@ struct HomeView: View {
                 
             }
             
-            //error bc the contents views is done already, also, i need to change tha main screen
+            
             
             
         }

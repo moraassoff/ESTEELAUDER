@@ -272,9 +272,9 @@
 		C749341A2A724BBF000C0BCD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C77D0B602A7D77C600415453 /* MainView.swift */,
 				C74933EA2A723268000C0BCD /* Estee_LauderApp.swift */,
 				C7582E682A7A59FD0032719A /* TabBar.swift */,
-				C77D0B602A7D77C600415453 /* MainView.swift */,
 				C7809A072A73429200BF474E /* ContentsView.swift */,
 				C7582E622A7A56E10032719A /* HomeView.swift */,
 				C7582E642A7A578D0032719A /* QuizView.swift */,
